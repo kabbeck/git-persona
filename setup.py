@@ -37,7 +37,7 @@ setup(
     namespace_packages=['ws'],
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    include_package_data=True,
+    # include_package_data=True,
     data_files=[('', glob.glob(project_path('*.txt')))],
     zip_safe=False,
 )
